@@ -1,0 +1,32 @@
+.h1styles {
+	text-align: center;
+}
+
+.h2styles {
+	text-align: center;
+	font-weight: bold;
+	background-color: black;
+	border-color: black;
+	color: white;
+	padding: 20px;
+	border-radius: 50%;
+	justify-content: center;
+	display: block;
+	max-width: 300px;
+	margin: auto;
+}
+
+.h2styles:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	animation: 8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
